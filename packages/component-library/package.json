@@ -1,0 +1,28 @@
+{
+  "name": "@openfrequency/component-library",
+  "version": "0.1.0",
+  "description": "open frequency component library",
+  "main": "src/index.js",
+  "main:src": "src/index.js",
+  "module": "src/index.js",
+  "author": "Michael Nield <mnield@openfrequency.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": " yarn test"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "@react-workspaces/react-scripts": "^3.4.0-alpha-01",
+    "cross-env": "5.0.5",
+    "emotion": "^10.0.27",
+    "icomoon-react": "^2.0.16",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-select": "^3.1.0",
+    "react-slick": "^0.27.1",
+    "slick-carousel": "^1.8.1",
+    "styled-system": "^5.1.5"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,15 @@
+{
+    "private": true,
+    "name": "project-mono",
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "start:collaborate": "yarn workspace collaborate start"
+    },
+    "dependencies": {
+        "concurrently": "^5.2.0"
+    },
+    "devDependencies": {
+    }
+}
